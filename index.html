@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="kazushi matsuura">
+    <meta name="keywords" content="html">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
+
+    <title>最終課題</title>
+</head>
+<body>
+    <header>
+        <h1>"あっち向いてホイ"ゲーム</h1>  
+    </header>
+    <main>
+        <section>
+            <h2>ゲームの流れ</h2>
+            <ol>
+                <li>矢印のボタンをどれか1つ選択</li>
+                <li>"結果"に結果が表示</li>
+                <li>何回目で"当たり"が出るか競争！</li>
+            </ol>
+        </section>
+        <section>
+            <h3>ゲーム開始！</h3>
+
+            <div class="a">
+                <button onclick="sayDirection(0)">↑</button>
+                <button onclick="sayDirection(1)">→</button>
+                <button onclick="sayDirection(2)">↓</button>
+                <button onclick="sayDirection(3)">←</button>
+            </div>
+
+            <p id="result">結果</p>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; Kazushi Matsuura, All Rights Reserved.
+    </footer>
+</body>
+</html>
